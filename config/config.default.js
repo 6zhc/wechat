@@ -27,11 +27,11 @@ module.exports = appInfo => {
   exports.mysql = {
     // 单数据库信息配置
     client: {
-     host: 'http://116.196.66.236',
+     host: 'localhost',
      port: '3306',
      user: 'root',
      password: '123',
-     database: 'test',
+     database: 'wechat',
     },
     // 是否加载到 app 上，默认开启
     app: true,
